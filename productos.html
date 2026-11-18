@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FrontEnd Store - nosotros</title>
+    <title>FrontEnd Store - Producto</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,26 @@
     </nav>
     
     <main class="contenedor">
-        <h1>Producto</h1>
+        <h1>React JS</h1>
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/3.jpg" alt="Imagen del producto">
+            <div class="camisa__contenido">
+            <p>Lleva tu pasión por el desarrollo web con esta polera React JS. Su diseño negro con el icónico logo celeste destaca por su estilo simple y fácil de combinar. 
+                De manga corta y cuello redondo, es ideal para tus días de estudio, encuentros con otros devs o una salida casual. 
+                Un guiño a la tecnología que te inspira a crear.
+            </p>
+            <form class="formulario">
+                <select class="formulario__campo">
+                    <option disabled selected>--- Seleccionar Talla ---</option>
+                    <option>Chica</option>
+                    <option>Mediana</option>
+                    <option>Grande</option>
+                </select>
+                <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                <input class="formulario__submit" type="submit" value="Agregar al carrito">
+            </form>
+            </div>
+        </div>
     </main>
 
     <footer class="footer">
